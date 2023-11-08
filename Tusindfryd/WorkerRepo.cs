@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace Tusindfryd;
 
-public class ProductionRepo: IRepo
+public class WorkerRepo: IRepo
 {
-    private List<Production> _productions;
+    private List<Worker> _workers;
     
-    public ProductionRepo()
+    public WorkerRepo()
     {
-        _productions = new List<Production>();
+        _workers = new List<Worker>();
     }
-
+    
     public void Add()
     {
         throw new NotImplementedException();

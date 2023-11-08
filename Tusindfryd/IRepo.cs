@@ -1,9 +1,11 @@
+using System;
+
 namespace Tusindfryd;
 
 public interface IRepo
 {
     void Add();
-    void Get();
+    Object Get();
     void Update();
     void Delete();
     

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace Tusindfryd;
 
-public class ProductionRepo: IRepo
+public class SurveyRepo: IRepo
 {
-    private List<Production> _productions;
+    private List<Survey> _surveys;
     
-    public ProductionRepo()
+    public SurveyRepo()
     {
-        _productions = new List<Production>();
+        _surveys = new List<Survey>();
     }
 
     public void Add()

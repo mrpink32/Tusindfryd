@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace Tusindfryd;
@@ -16,7 +17,7 @@ public class GreenhouseRepo: IRepo
         throw new System.NotImplementedException();
     }
 
-    public void Get()
+    public Object Get()
     {
         throw new System.NotImplementedException();
     }
